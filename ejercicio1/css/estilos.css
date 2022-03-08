@@ -1,0 +1,81 @@
+  div{
+    color: white;
+  }
+
+  .Contenedor{
+    height: 100%;
+    width: 100%;
+  }
+
+  .RedBox {
+    height: 60px;
+    width: 220px;
+    background: red;
+  }
+
+  .BlueBox {
+    height: 80px;
+    background: blue;
+  }
+
+  .Fila1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Fila2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Fila3 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Fila3 div {
+    flex-grow: 1;
+  }
+
+  .Fila3 :last-child {
+    flex-grow: 0;
+    width: 19%;
+  }
+
+  .break { 
+    flex-basis: 100%;
+    height: 0;
+  }
+  
+  .Fila4 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Fila4 > div {
+    width: 15%;
+  }
+
+  .Fila4 :first-child {
+    width: 30%;
+    text-align: center;
+  }
+
+  .Fila5 {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+
+  
+  
