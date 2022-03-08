@@ -1,0 +1,47 @@
+.general{
+    background: aquamarine;
+    margin: auto;
+    width: 750px;
+    padding: 15px;
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+}
+
+p{
+    display: inline-block;
+    width: 12rem;
+}
+
+input{
+    display: inline-block;
+}
+
+.boton{
+    justify-content:center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha{
+    width: 23.5rem;
+}
+
+.fecha input{
+    margin-left: 20px;
+}
+
+.activado{
+    width: 23.5rem;
+}
+
+.activado input{
+    margin-left: 80px;
+}
